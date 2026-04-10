@@ -69,7 +69,7 @@ Usage: #example
   * code = $loinc#5195-3 "Hepatitis B virus surface Ag [Presence] in Serum"
   * valueQuantity 
     * value = 100
-    * comparator = quantity-comparator-cs#< "Less than"
+    * comparator = #< 
     * unit = "mL"
     * system = "http://unitsofmeasure.org"
     * code = #mL

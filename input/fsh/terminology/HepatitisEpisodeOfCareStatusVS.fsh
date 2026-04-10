@@ -5,4 +5,4 @@ Description: "Description of hepatitis episode of care satus"
 
 * ^url = "https://terminology.dhp.uz/ValueSet/hep-episode-of-care-status-vs"
 
-* include codes from system HepatitisEpisodeOfCareStatusCS
+* include codes from valueset $episode-of-care-status

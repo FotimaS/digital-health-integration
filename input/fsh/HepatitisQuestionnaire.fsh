@@ -41,7 +41,7 @@ Description: "Gepatit bilan bog'liq anamnez va klinik ma'lumotlarni yig'ish uchu
 
 // Instance Example
 Instance: example-hepatitis-questionnaire
-InstanceOf: Questionnaire
+InstanceOf: HepatitisQuestionnaire
 Description: "Gepatit B va C bo'yicha o'tkazilgan davolash muolajalari so'rovnomasi"
 Usage: #example
 * status = #active

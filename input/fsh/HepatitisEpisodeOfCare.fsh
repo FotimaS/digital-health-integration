@@ -9,8 +9,8 @@ Description: "Bemorning gepatit bo'yicha hisobda (A, B, C, D uchyot) turish jara
 * ^publisher = "Uzinfocom"
 
 * identifier 1..* MS
-* status from HepatitisEpisodeOfCareStatusVS (required)
 * status MS 
+* status from HepatitisEpisodeOfCareStatusVS (required)
 
 * diagnosis MS
 * diagnosis.condition 1..1 MS
@@ -52,7 +52,7 @@ Usage: #example
   * system = "https://gepatit.sanepid.uz/episodeofcare"
   * value = "EOC-2026-1122"
 
-* status = hep-episode-of-care-status-cs#planned "Rejalashtirilgan"
+* status = #planned 
 * patient = Reference(example-hepatitis-patient)
 
 * diagnosis[0]
