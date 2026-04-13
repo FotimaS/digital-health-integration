@@ -94,11 +94,10 @@ Description: "Example newborn patient in Uzbekistan"
 * identifier[0].system = "https://dhp.uz/fhir/sid/newborn-id"
 * identifier[0].value = "NB-2026-0001"
 
-* name.text = "John Duran"
-* name.family = "Duran"
+* name[0].text = "John Duran"
+* name[0].family = "Duran"
 * gender = #male
 * birthDate = "2026-04-01"
-
 
 * extension[placeOfBirthType].url = "https://dhp.uz/fhir/integrations/StructureDefinition/patient-placeOfBirthType"
 * extension[placeOfBirthType].valueCodeableConcept = BirthPlaceCS#birth0004.00003 "Hospital"
@@ -109,11 +108,10 @@ Description: "Example newborn patient in Uzbekistan"
 * extension[newbornBirthTime][0].url = "https://dhp.uz/fhir/integrations/StructureDefinition/newborn-birth-time"
 * extension[newbornBirthTime][0].valueDateTime = "2026-04-01T10:00:00+05:00"
 
-
 * contact[0].relationship[0] = http://terminology.hl7.org/CodeSystem/v2-0131#N "Next-of-Kin"
 * contact[0].name.text = "Sophia Lills"
 * contact[0].telecom[0].system = #phone
-* contact[0].telecom[0].value = "998936000000"
+* contact[0].telecom[0].value = "+998936000000"
 * contact[0].address.text = "Mirzo Ulugbek, Tashkent"
 * contact[0].gender = #female
 * contact[0].organization = Reference(organization-birth-hospital-example)
@@ -121,10 +119,6 @@ Description: "Example newborn patient in Uzbekistan"
 * generalPractitioner[0] = Reference(practitioner-003)
 
 * managingOrganization = Reference(organization-birth-hospital-example)
-
-* extension[https://dhp.uz/fhir/integrations/StructureDefinition/managing-organization-attachment].url = "https://dhp.uz/fhir/integrations/StructureDefinition/managing-organization-attachment"
-* extension[https://dhp.uz/fhir/integrations/StructureDefinition/managing-organization-attachment].valueDate = "2026-04-01"
-
 
 * link[0].other = Reference(patient-mother-example)
 * link[0].type = #seealso
