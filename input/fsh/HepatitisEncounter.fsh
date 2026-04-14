@@ -8,14 +8,14 @@ Description: "Profile for representing encounters related to hepatitis patients 
 * ^status = #active
 * ^publisher = "Uzinfocom"
 
-* identifier 1..* MS //naming qilishim kk
+* identifier 1..* MS //For this item you need to write namingsytem (namingsystem url's you can find in excel file)
 * status from EncounterStatusVS (required)
 * status MS
 * status = #completed 
 
 * subject 1..1 MS
 * subject only Reference(Patient)
-* subject ^short = "Qabul qilinayotgan bemor"
+* subject ^short = "Qabul qilinayotgan bemor" //Please translate this definition to English and add for all item ^short = "Definition in English from excel file"
 
 * serviceProvider 0..1 MS
 * serviceProvider only Reference(Organization)
@@ -42,7 +42,7 @@ Description: "Profile for representing encounters related to hepatitis patients 
 // Instance Example
 Instance: example-hepatitis-encounter
 InstanceOf: HepatitisEncounter
-Description: "Yusupova Xalida uchun 2026-yil 26-yanvardagi qabul namunasi"
+Description: "Yusupova Xalida uchun 2026-yil 26-yanvardagi qabul namunasi" //Please translate this description to English 
 Usage: #example
 * identifier 
   * system = "https://gepatit.sanepid.uz/encounter"

@@ -16,7 +16,7 @@ Description: "Profile for representing episodes of care related to hepatitis pat
 * diagnosis.condition 1..1 MS
 * diagnosis.condition only CodeableReference(HepatitisCondition)
 * diagnosis.condition from HepatitisICDVS (required) // CodeSystem should be done
-* diagnosis.condition ^short = "Bemorning gepatit tashxisi"
+* diagnosis.condition ^short = "Bemorning gepatit tashxisi"  //Please translate this definition to English and add for all item ^short = "Definition in English from excel file"
 
 * diagnosis.use 0..1 MS
 * diagnosis.use from http://hl7.org/fhir/ValueSet/diagnosis-role (required)

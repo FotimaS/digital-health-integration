@@ -40,7 +40,7 @@ Description: "Profile for representing ultrasound observations related to hepati
 // Instance Example
 Instance: example-ultrasound-cirrhosis
 InstanceOf: HepatitisObservationUltraSound
-Description: "Jigar sirrozi belgilari aniqlangan holat uchun namuna"
+Description: "Instance of cirrhosis detected"
 Usage: #example
 * status = #final
 * identifier
@@ -56,13 +56,13 @@ Usage: #example
 * performer = Reference(PractitionerRole/muratova-gulshoda-role)
 
 * valueBoolean = true
-* note.text = "Jigar chetlari notekis, exogenligi oshgan"
+* note.text = "Liver texture note showing increased echogenicity"
 
 
 // Instance Example
 Instance: example-ultrasound-lesion
 InstanceOf: HepatitisObservationUltraSound
-Description: "Jigarda o'sma aniqlangan holat uchun namuna"
+Description: "Instance of liver lesion detected" 
 Usage: #example
 * status = #final
 
