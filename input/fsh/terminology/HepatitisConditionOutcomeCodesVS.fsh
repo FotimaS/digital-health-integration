@@ -1,7 +1,7 @@
 ValueSet: HepatitisConditionOutcomeCodesVS
 Id: hep-condition-outcome-codes-vs
 Title: "Hepatitis condition outcome codes valueset"
-Description: "Gepatit kasalligi natijalari uchun tanlov qiymatlari"
+Description: "ValueSet for hepatitis condition outcome codes"
 
 * ^experimental = true
 

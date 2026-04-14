@@ -1,7 +1,7 @@
 ValueSet: HepatitisTypeOfUltrasoundVS
 Id: hep-type-of-ultrasound-vs 
 Title: "Hepatitis type of ultrasound valueset"
-Description: "UZI tekshiruvi natijalari uchun tanlov qiymatlari"
+Description: "ValueSet for hepatitis type of ultrasound"
 
 * ^experimental = true
 

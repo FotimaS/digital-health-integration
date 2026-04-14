@@ -2,7 +2,7 @@ Profile: HepatitisQuestionnaireResponse
 Parent: QuestionnaireResponse
 Id: hepatitis-questionnaire-response
 Title: "Hepatitis questionnaire Response"
-Description: "Gepatit so'rovnomasiga berilgan javoblarini saqlash uchun profil"
+Description: "Profile for representing responses to a hepatitis-related questionnaire in the context of a digital health integration project. This profile extends the base QuestionnaireResponse resource to include specific elements and extensions relevant to hepatitis patient assessments, such as treatment history, clinical status, and pregnancy-related information."
 * ^experimental = true
 * ^status = #active
 * ^publisher = "Uzinfocom"

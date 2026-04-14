@@ -22,26 +22,34 @@ Description: "Profile for hepatitis patient resource"
 * identifier ^slicing.description = "Ways patient can be identitifed"
 * identifier ^slicing.ordered = false
 
-// * identifier contains nationalId 0..1 MS
 * identifier[nationalId]
   * use = #official
+  * type ^short = "Description of identifier"
   * type.coding 1..* MS
+  * type.coding ^short = "Code defined by a terminology system"
     * system 1..1 MS
+    * system ^short = "Identity of the terminology system"
     * system = $identifier-type 
     * code 1..1 MS
+    * code ^short = "Symbol in syntax defined by the system"
     * code = #NI
     * display 1..1 MS
+    * display ^short = "Representation defined by the system"
     * display = "National unique individual identifier"
   * system 1..1 MS
+  * system ^short = "The namespace for the identifier value"
   * system = "https://dhp.uz/fhir/core/sid/pid/uz/ni"
   * value 1..1 MS
+  * value ^short = "The value that is unique"
 
-// * identifier contains passportLocal 0..1 MS
 * identifier[passportLocal]
   * type.coding 1..* MS
+  * type.coding ^short = "Code defined by a terminology system"
     * system 1..1 MS
+    * system ^short = "Identity of the terminology system"
     * system = $identifier-type 
     * code 1..1 MS
+    * code ^short = "Symbol in syntax defined by the system"
     * code = #PPN
     * display 1..1 MS
     * display = "Passport number"
@@ -86,7 +94,6 @@ Description: "Profile for hepatitis patient resource"
 * address ^slicing.discriminator.path = "country"
 * address ^slicing.rules = #open
 
-// * address contains uzAddress 0..* MS
 * address[uzAddress].country = "UZ"
 
 * address[uzAddress]

@@ -1,7 +1,7 @@
 ValueSet: HepatitisConditionDiagnosisTypeVS
 Id: hepatitis-condition-diagnosis-type-vs
 Title: "Hepatitis condition diagnosis type ValueSet"
-Description: "Hepatit kasalligi tashxisining turlari uchun ValueSet"
+Description: "ValueSet for hepatitis condition diagnosis type"
 
 * ^experimental = true
 

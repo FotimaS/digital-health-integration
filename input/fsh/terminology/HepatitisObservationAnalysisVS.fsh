@@ -1,7 +1,7 @@
 ValueSet: HepatitisObservationAnalysisVS
 Id: hep-observation-analysis-vs
 Title: "Hepatitis observation analysis valueset"
-Description: "Gepatit tahlillari uchun tanlov qiymatlari"
+Description: "ValueSet for hepatitis observation analysis"
 
 * ^experimental = true
 * ^extension.url = $valueset-supplement

@@ -2,12 +2,13 @@ Profile: HepatitisObservationAnalysis
 Parent: Observation
 Id: hepatitis-observation-analysis
 Title: "Hepatitis observation analysis profile"
-Description: "Gepatit tahlillari natijalarini qayd etish uchun profil"
+Description: "Profile for representing hepatitis observation analysis in the context of a digital health integration project. This profile extends the base Observation resource to include specific elements and extensions relevant to hepatitis observation analysis, such as laboratory result types, clinical significance, and associated notes."
 * ^experimental = true
 * ^status = #active
 * ^publisher = "Uzinfocom"
 
 * identifier MS
+* identifier ^short = "Identifier"
 * method 0..1 MS
 * method from $observation-methods (extensible)  //LabObservationMethodsVS 
 * category 0..* MS

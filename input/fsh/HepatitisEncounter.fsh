@@ -2,7 +2,7 @@ Profile: HepatitisEncounter
 Parent: Encounter
 Id: hepatitis-encounter
 Title: "Hepatitis patient encounter profile"
-Description: "Bemorning tibbiy ko'rigi va tahlil jarayonlarini bog'lovchi qabul"
+Description: "Profile for representing encounters related to hepatitis patients in the context of a digital health integration project. This profile extends the base Encounter resource to include specific elements and extensions relevant to hepatitis patient encounters, such as clinical status, participant types, and encounter outcomes."
 
 * ^experimental = true
 * ^status = #active

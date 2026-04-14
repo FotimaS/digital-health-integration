@@ -2,7 +2,7 @@ Profile: HepatitisObservationUltraSound
 Parent: Observation
 Id: hepatitis-observation-ultra-sound
 Title: "Hepatitis UltraSound Observation"
-Description: "UZI natijalarini, xususan jigar sirrozi va o'smalarni qayd etish uchun profil"
+Description: "Profile for representing ultrasound observations related to hepatitis patients in the context of a digital health integration project. This profile extends the base Observation resource to include specific elements and extensions relevant to ultrasound findings, such as the type of ultrasound, clinical significance, and associated notes."
 * ^experimental = true
 * ^status = #active
 * ^publisher = "Uzinfocom"

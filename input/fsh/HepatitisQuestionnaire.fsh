@@ -2,7 +2,7 @@ Profile: HepatitisQuestionnaire
 Parent: Questionnaire
 Id: hepatitis-questionnaire
 Title: "Hepatitis questionnaire profile"
-Description: "Gepatit bilan bog'liq anamnez va klinik ma'lumotlarni yig'ish uchun strukturaviy so'rovnoma"
+Description: "Profile for representing a questionnaire related to hepatitis patients in the context of a digital health integration project. This profile extends the base Questionnaire resource to include specific elements and extensions relevant to hepatitis patient assessments, such as treatment history, clinical status, and pregnancy-related information."
 * ^experimental = true
 * ^status = #active
 * ^publisher = "Uzinfocom"

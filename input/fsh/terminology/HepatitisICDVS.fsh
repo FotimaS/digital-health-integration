@@ -1,7 +1,7 @@
 ValueSet: HepatitisICDVS
 Id: hep-icd-vs
 Title: "Hepatitis ICD-10 codes valueset"
-Description: "Gepatit kasalligi uchun ICD-10 kodlari tanlov qiymatlari"
+Description: "ValueSet for hepatitis ICD-10 codes"
 
 * ^experimental = true
 

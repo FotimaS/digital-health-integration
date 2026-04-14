@@ -131,7 +131,7 @@ Alias: $encounter-admit-source = http://terminology.hl7.org/CodeSystem/admit-sou
 Alias: $encounter-discharge-disposition = http://terminology.hl7.org/CodeSystem/discharge-disposition
 Alias: $encounter-diagnosis-use = http://hl7.org/fhir/ValueSet/encounter-diagnosis-use
 
-Alias: $episode-of-care-status = http://hl7.org/fhir/episode-of-care-status
+// Alias: $episode-of-care-status = http://hl7.org/fhir/episode-of-care-status
 
 Alias: $issue-severity = http://hl7.org/fhir/issue-severity
 Alias: $fhir-types = http://hl7.org/fhir/fhir-types
